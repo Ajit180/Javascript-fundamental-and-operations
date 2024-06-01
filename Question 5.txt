@@ -1,0 +1,45 @@
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+
+Solution:
+  
+     Comments in JavaScript serve as explanatory notes within the code that are ignored by the interpreter during execution. They play a crucial role in improving code readability, documenting functionality, and facilitating collaboration among developers. Here's why comments are important:
+
+### Importance of Comments
+1. Code Documentation: Comments provide insights into the purpose, behavior, and usage of code segments, making it easier for developers to understand and maintain the codebase.
+  
+2. Clarification and Explanation: Comments help clarify complex logic, algorithms, or business rules, especially for future readers who may not be familiar with the code.
+  
+3. Debugging and Troubleshooting: Comments can serve as markers for debugging, allowing developers to identify problematic areas more efficiently.
+  
+4. Team Collaboration: Comments facilitate collaboration among team members by conveying intentions, design decisions, and usage guidelines within the code.
+  
+5. Code Versioning: Comments can document changes, updates, or bug fixes made to the codebase, aiding in version control and tracking modifications over time.
+
+### Examples of Comments
+#### Single-Line Comment
+```javascript
+// This is a single-line comment
+let name = "Alice"; // Assigning value to the variable 'name'
+```
+
+#### Multi-Line Comment
+```javascript
+/*
+  This is a multi-line comment
+  It can span multiple lines
+  Useful for commenting out large blocks of code or providing detailed explanations
+*/
+let age = 30; // Assigning value to the variable 'age'
+```
+
+### Best Practices for Using Comments
+1. Be Concise: Keep comments brief and to the point, focusing on essential information.
+  
+2. Use Descriptive Names: Use meaningful variable, function, and class names to reduce the need for excessive comments.
+  
+3. Update Comments: Regularly update comments to ensure they remain accurate and relevant, especially after code changes.
+  
+4. Avoid Redundancy: Avoid commenting obvious or self-explanatory code; instead, focus on explaining complex logic or unconventional approaches.
+  
+5. Follow a Consistent Style: Adopt a consistent commenting style and formatting convention across the codebase to enhance readability and maintainability.

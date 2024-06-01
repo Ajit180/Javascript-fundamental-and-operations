@@ -1,0 +1,123 @@
+Q3. Differentiate between unary, and binary operators in JavaScript. Give examples of each.
+
+Solutions:
+
+   ### Unary vs. Binary Operators in JavaScript
+
+#### Unary Operators
+Unary operators operate on a single operand. They perform operations such as incrementing a value, negating it, or checking its type.
+
+**Examples:**
+
+1. **Increment (`++`)**
+   ```javascript
+   let a = 5;
+   a++; // a is now 6
+   ```
+2. **Decrement (`--`)**
+   ```javascript
+   let b = 3;
+   b--; // b is now 2
+   ```
+3. **Unary negation (`-`)**
+   ```javascript
+   let c = 10;
+   let d = -c; // d is -10
+   ```
+4. **Unary plus (`+`)**
+   ```javascript
+   let e = '5';
+   let f = +e; // f is 5 (number)
+   ```
+5. **Logical NOT (`!`)**
+   ```javascript
+   let g = true;
+   let h = !g; // h is false
+   ```
+6. **Typeof**
+   ```javascript
+   let type = typeof 42; // type is 'number'
+   ```
+7. **Bitwise NOT (`~`)**
+   ```javascript
+   let i = 5;
+   let j = ~i; // j is -6
+   ```
+
+#### Binary Operators
+Binary operators operate on two operands. They perform operations such as addition, subtraction, comparison, and logical operations.
+
+**Examples:**
+
+1. **Addition (`+`)**
+   ```javascript
+   let sum = 5 + 3; // sum is 8
+   ```
+2. **Subtraction (`-`)**
+   ```javascript
+   let difference = 10 - 2; // difference is 8
+   ```
+3. **Multiplication (`*`)**
+   ```javascript
+   let product = 4 * 5; // product is 20
+   ```
+4. **Division (`/`)**
+   ```javascript
+   let quotient = 20 / 4; // quotient is 5
+   ```
+5. **Modulus (`%`)**
+   ```javascript
+   let remainder = 10 % 3; // remainder is 1
+   ```
+6. **Exponentiation (`**`)**
+   ```javascript
+   let power = 2 ** 3; // power is 8
+   ```
+7. **Assignment (`=`)**
+   ```javascript
+   let x = 10;
+   ```
+8. **Equality (`==`)**
+   ```javascript
+   let isEqual = (5 == '5'); // isEqual is true
+   ```
+9. **Strict Equality (`===`)**
+   ```javascript
+   let isStrictEqual = (5 === '5'); // isStrictEqual is false
+   ```
+10. **Logical AND (`&&`)**
+    ```javascript
+    let andResult = (true && false); // andResult is false
+    ```
+11. **Logical OR (`||`)**
+    ```javascript
+    let orResult = (true || false); // orResult is true
+    ```
+12. **Bitwise AND (`&`)**
+    ```javascript
+    let bitwiseAnd = 5 & 3; // bitwiseAnd is 1
+    ```
+13. **Bitwise OR (`|`)**
+    ```javascript
+    let bitwiseOr = 5 | 3; // bitwiseOr is 7
+    ```
+14. **Bitwise XOR (`^`)**
+    ```javascript
+    let bitwiseXor = 5 ^ 3; // bitwiseXor is 6
+    ```
+15. **Greater than (`>`)**
+    ```javascript
+    let isGreater = (10 > 5); // isGreater is true
+    ```
+16. **Less than (`<`)**
+    ```javascript
+    let isLess = (3 < 7); // isLess is true
+    ```
+17. **Instanceof**
+    ```javascript
+    let isInstance = new Date() instanceof Date; // isInstance is true
+    ```
+
+### Summary
+- **Unary operators** operate on a single operand (e.g., `++a`, `-b`, `!c`).
+- **Binary operators** operate on two operands (e.g., `a + b`, `x > y`, `p && q`).

@@ -1,0 +1,192 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Solutions:
+
+       Operators in JavaScript can be categorized based on their functionality into several groups. Here are the main categories with examples for each:
+
+ 1. Arithmetic Operators
+These operators perform mathematical operations on numbers.
+- Addition (`+`): Adds two values.
+  javascript
+  let sum = 5 + 3; // sum is 8
+  
+- Subtraction (`-`): Subtracts the second value from the first.
+  javascript
+  let difference = 10 - 2; // difference is 8
+  
+- Multiplication (`*`): Multiplies two values.
+  javascript
+  let product = 4 * 5; // product is 20
+  
+- Division (`/`): Divides the first value by the second.
+  javascript
+  let quotient = 20 /4; // quotient is 5
+  
+- Modulus (`%`): Returns the remainder of division.
+  javascript
+  let remainder = 10 % 3; // remainder is 1
+  
+- Exponentiation (`**`): Raises the first value to the power of the second.
+  javascript
+  let power = 2**3; // power is 8
+  
+
+ 2. Assignment Operators
+These operators assign values to variables and can perform operations while assigning.
+- Assignment (`=`): Assigns the value on the right to the variable on the left.
+  javascript
+  let x = 10;
+  
+- Addition assignment (`+=`): Adds the right operand to the left operand and assigns the result to the left operand.
+  javascript
+  x += 5; // x is now 15
+  
+- Subtraction assignment (`-=`): Subtracts the right operand from the left operand and assigns the result to the left operand.
+  javascript
+  x -= 3; // x is now 12
+  
+- Multiplication assignment (`*=`): Multiplies the left operand by the right operand and assigns the result to the left operand.
+  javascript
+  x *= 2; // x is now 24
+  
+- Division assignment (`/=`): Divides the left operand by the right operand and assigns the result to the left operand.
+  javascript
+  x /= 4; // x is now 6
+  
+
+ 3. Comparison Operators
+These operators compare two values and return a boolean (true or false).
+- Equal (`==`): Checks if two values are equal (with type coercion).
+  javascript
+  let isEqual = (5 == '5'); // isEqual is true
+  
+- Strict equal (`===`)
+
+: Checks if two values are equal (without type coercion).
+  javascript
+  let isStrictEqual = (5 === '5'); // isStrictEqual is false
+  
+- Not equal (`!=`): Checks if two values are not equal (with type coercion).
+  javascript
+  let isNotEqual = (5 != '5'); // isNotEqual is false
+  
+- Strict not equal (`!==`): Checks if two values are not equal (without type coercion).
+  javascript
+  let isStrictNotEqual = (5 !== '5'); // isStrictNotEqual is true
+  
+- Greater than (`>`): Checks if the left value is greater than the right value.
+  javascript
+  let isGreater = (10 > 5); // isGreater is true
+  
+- Less than (`<`): Checks if the left value is less than the right value.
+  javascript
+  let isLess = (3 < 7); // isLess is true
+  
+- Greater than or equal (`>=`): Checks if the left value is greater than or equal to the right value.
+  javascript
+  let isGreaterOrEqual = (10 >= 10); // isGreaterOrEqual is true
+  
+- Less than or equal (`<=`): Checks if the left value is less than or equal to the right value.
+  javascript
+  let isLessOrEqual = (4 <= 8); // isLessOrEqual is true
+  
+
+ 4. Logical Operators
+These operators perform logical operations and are mainly used in conditional statements.
+- Logical AND (`&&`): Returns true if both operands are true.
+  javascript
+  let andResult = (true && false); // andResult is false
+  
+- Logical OR (`||`): Returns true if at least one operand is true.
+  javascript
+  let orResult = (true || false); // orResult is true
+  
+- Logical NOT (`!`): Inverts the boolean value.
+  javascript
+  let notResult = (!true); // notResult is false
+  
+
+ 5. Unary Operators
+These operators operate on a single operand.
+- Increment (`++`): Increases the value of a variable by one.
+  javascript
+  let a = 5;
+  a++; // a is now 6
+  
+- Decrement (`--`): Decreases the value of a variable by one.
+  javascript
+  let b = 3;
+  b--; // b
+
+is now 2
+  
+- Unary negation (`-`): Converts a value to its negative equivalent.
+  javascript
+  let c = 10;
+  let d = -c; // d is -10
+  
+- Unary plus (`+`): Attempts to convert the operand to a number.
+  javascript
+  let e = '5';
+  let f = +e; // f is 5 (number)
+  
+
+ 6. Bitwise Operators
+These operators perform operations on the binary representations of numbers.
+- AND (`&`): Performs a bitwise AND.
+  javascript
+  let bitwiseAnd = 5 & 3; // bitwiseAnd is 1
+  
+- OR (`|`): Performs a bitwise OR.
+  javascript
+  let bitwiseOr = 5 | 3; // bitwiseOr is 7
+  
+- XOR (`^`): Performs a bitwise XOR.
+  javascript
+  let bitwiseXor = 5 ^ 3; // bitwiseXor is 6
+  
+- NOT (`~`): Performs a bitwise NOT.
+  javascript
+  let bitwiseNot = ~5; // bitwiseNot is -6
+  
+- Left shift (`<<`): Shifts bits to the left.
+  javascript
+  let leftShift = 5 << 1; // leftShift is 10
+  
+- Right shift (`>>`): Shifts bits to the right.
+  javascript
+  let rightShift = 5 >> 1; // rightShift is 2
+  
+- Zero-fill right shift (`>>>`): Shifts bits to the right, filling with zeros.
+  javascript
+  let zeroFillRightShift = 5 >>> 1; // zeroFillRightShift is 2
+  
+
+ 7. Ternary Operator
+This is a shorthand for the `if-else` statement, used for conditional expressions.
+- Conditional (`condition ? expr1 : expr2`): Returns `expr1` if the condition is true, otherwise returns `expr2`.
+  javascript
+  let age = 18;
+  let canVote = (age >= 18) ? 'Yes' : 'No'; // canVote is 'Yes'
+  
+
+ 8. Type Operators
+These operators are used to determine the type of a variable.
+- typeof: Returns the type of a variable.
+  javascript
+  let type = typeof 42; // type is 'number'
+  
+- instanceof: Checks if an object is an instance of a particular class.
+  javascript
+  let isInstance = new Date() instanceof Date; // isInstance is true
+  
+
+ 9. Comma Operator
+This operator evaluates multiple expressions and returns the value of the last one.
+- Comma (`,`):
+  javascript
+  let x = (1, 2, 3); // x is 3
+  
+
+Each category of operators in JavaScript serves specific purposes, enabling developers to perform a variety of tasks efficiently, from basic arithmetic to complex logical operations.
